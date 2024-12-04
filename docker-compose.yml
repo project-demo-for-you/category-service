@@ -9,7 +9,7 @@ services:
     volumes:
       - category-service-data:/var/lib/postgresql/data
     ports:
-      - "5455:5432"
+      - "5466:5432"
     networks:
       - online-food-delivery-network
 
